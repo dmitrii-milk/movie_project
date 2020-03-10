@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	/*position: fixed;*/
+	width: 100%;
+}
+
+.navbar {
+	height: 7em;
+	background-color: black;
+}
+
+.navbar a {
+	color: white;
+}
+
+.navbar-nav li a {
+	color: white;
+	background-color: black;
+}
+
+.navbar-nav li div {
+	background-color: black;
+}
+
+
+
+.search-panel {
+	/*margin-left: 5em;*/
+	height: 5em;
+	width: 100%;
+	display: flex;
+	background-color: black;
+	float: left;
+}
+
+.form-login {
+	height: 100%;
+	display: flex;
+	flex-flow: wrap row;
+	justify-content: space-between;
+}
+
+.form-login button {
+	margin-top: 5px;
+}
+
+.srch {
+	height: 2em;
+	border: 1px solid black;
+	width: 20em;
+	padding: 5px;
+	margin-right: 1em;
+}
+
+
+main {
+	width: 100%;
+	height: auto;
+}
+
+.top-bar {
+	display: flex;
+	width: 100%;
+	height: 5em;
+	margin: 1em 0 1em 0;
+}
+
+.top-bar div {
+	width: 50%
+}
+
+.bar-right {
+	background-color: blueviolet;
+}
+
+.bar-left {
+	background-color: gold;
+}
+
+.media {
+	width: 1000px;
+	margin-bottom: 30px;
+	margin: 0 auto;
+}
+
+.tv {
+	float: left;
+	width: 500px;
+	height: auto;
+	overflow: hidden;
+	display: inline-block;
+	background-color: aqua;
+}
+
+.movieIn {
+	float: left;
+	width: 500px;
+	height: auto;
+	overflow: hidden;
+	display: inline-block;
+	background-color: chocolate;
+}
+
+.first {
+	width: 500px;
+	height: 281px;
+	background-color: darkgrey;
+	float: left;
+}
+
+.second {
+	width: 250px;
+	height: 141px;
+	background-color: darkblue;
+	float: left;
+}
+
+.thrid {
+	width: 250px;
+	height: 141px;
+	background-color: crimson;
+	float: left;
+}
+.sub-media {
+	margin-top: 1em;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+footer {
+	width: 100%;
+	height: 12em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: darkolivegreen;
+	color: white;
+}
+
+footer div {
+	margin-top: 2%;
+}
+
+footer div ul li {
+	list-style-type: none;
+}
+footer div ul li a{
+	text-decoration: none;
+	color: white;
+}
+footer div ul li a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+/*-----------------------styles for login page-------------*/
+
+.login-form {
+	margin: 5em;
+}
+
+/*-----------------------styles for login page-------------*/
+/*---------------------styles for registr page-------------*/
+.reg-form {
+	margin: 2em;
+}
+/*--------------------------------------------------*/
+
+.section {
+	display: flex;
+	width: 100%;
+	height: auto;
+	flex-flow: row wrap;
+	justify-content: center;
+	background-color: black;
+}
+
+.wrapper {
+	width: 130px;
+	transition: 250ms all;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+}
+
+.wrapper:hover {
+	transform: scale(0.98);
+	cursor: pointer;
+}
+
+.wrapper img {
+	width: 120px;
+}
+
+
+
+

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Login</title>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-white">
+			<a class="navbar-brand" href="index.html">FavoriteFilms</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+
+					<li class="nav-item dropdown">
+						<a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Ознакомление
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Фильмы</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Сериалы</a>
+
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Фильмы
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Популярные</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Лучшие</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Ожидаемые</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Смотрят сейчас</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Сериалы
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Популярные</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Лучшие</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">По телевидению</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">В эфире сегодня</a>
+						</div>
+					</li>
+				</ul>
+				<div class="search-panel">
+					<form class="form-inline my-2 my-lg-0">
+						<input class="srch" type="search" placeholder="Search" aria-label="Search">
+					</form>
+				</div>
+				<div class="form-login">
+					<button id="login-button" type="button" class="btn btn-light">Вход</button>
+					<button id="reg-button" type="button" class="btn btn-light">Регистрация</button>
+				</div> 
+
+			</div>
+		</nav>
+
+	</header>
+
+	<main>
+
+		<div class="media">
+			<section class="login-form">
+				<h2>Войти в свою учётную запись</h2>
+				<p>Чтобы пользоваться правкой и возможностями рейтинга FF, а также получить персональные рекомендации, необходимо войти в свою учётную запись. Если у вас нет учётной записи, её регистрация является бесплатной и простой. <a href="register.html">Hажмите здесь</a>, чтобы начать.</p>
+				<p>Если Вы зарегистрировались, но не получили письмо для подтверждения, <a href="#">нажмите здесь</a>, чтобы отправить письмо повторно.</p>
+
+				<form>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Введите логин</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">Введите пароль</label>
+						<input type="password" class="form-control" id="exampleInputPassword1">
+					</div>
+					<div class="form-group form-check">
+						<input type="checkbox" class="form-check-input" id="exampleCheck1">
+						<label class="form-check-label" for="exampleCheck1">Запомни меня</label>
+					</div>
+					<button type="submit" class="btn btn-primary">Войти</button>
+					<button type="button" class="btn btn-link">Сбросить пароль</button>
+				</form>
+			</section>
+
+		</div>
+
+	</main>
+
+	<footer>
+		<div>
+			<h3>Главное</h3>
+			<ul>
+				<li><a href="#">Связаться с нами</a></li>
+				<li><a href="#">Форумы поддержки</a></li>
+				<li><a href="#">Блог</a></li>
+			</ul>
+		</div>
+		<div>
+			<h3>Участвуйте</h3>
+			<ul>
+				<li><a href="#"><span class="glyphicons glyphicons-asterisk"></span> Писание об участии</a></li>
+				<li><a href="#">Сторонние приложения</a></li>
+				<li><a href="#">Добавить новый фильм</a></li>
+				<li><a href="#">Добавить новый сериал</a></li>
+			</ul>
+		</div>
+		<div>
+			<h3>Сообщество</h3>
+			<ul>
+				<li><a href="#">Руководства</a></li>
+				<li><a href="#">Доска почёта</a></li>
+				<li><a href="#">Форумы</a></li>
+				<li><a href="#" target="_blank" rel="noopener">Twitter</a></li>
+			</ul>
+		</div>
+		<div>
+			<h3>О праве</h3>
+			<ul>
+				<li><a href="#">Условия использования</a></li>
+				<li><a href="#">Политика конфиденциальности</a></li>
+			</ul>
+		</div>
+	</footer>
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
