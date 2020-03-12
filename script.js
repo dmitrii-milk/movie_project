@@ -1,10 +1,10 @@
 //------------------------событие входа---------------------- 
-/*let enter = document.querySelector('#login-button').onclick = function () {
+let enter = document.querySelector('#login-button').onclick = function () {
 	document.location.href = "login.html"
 }
 let register = document.querySelector('#reg-button').onclick = function () {
 	document.location.href = "register.html"
-}*/
+}
 const API_KEY = '7f1b6f50ab71568f7ee0decc0d54b44a';
 const IMAGE_URL = 'https://image.tmdb.org/t/p/w500';
 
@@ -24,7 +24,7 @@ function movieSection(movies) {
 				data-movie-id=${movie.id}/>
 				<span>${movie.title}</span></div>`
 		};
-	})
+	});
 
 }
 
@@ -51,13 +51,10 @@ function renderSearchMovie(data) {
 	console.log('Data:', data);
 }
 
-
-
-
 searchButton.onclick = function (event) {
 	event.preventDefault();
 	const inputValue = inputElement.value;
-	let newUrl = url + '&query=' + inputValue;
+	let newUrl = url + '&query=' + inputValue + '&language=ru';
 
 	fetch(newUrl)
 		.then((res) => res.json())
@@ -76,3 +73,4 @@ document.onclick = function (event) {
 	}
 	
 }
+

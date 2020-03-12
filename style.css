@@ -4,36 +4,34 @@
 }
 
 header {
-	/*position: fixed;*/
 	width: 100%;
 }
 
 .navbar {
 	height: 7em;
-	background-color: black;
+	background-image: url(./img/74705061_155393805859612_3224043241129115648_o.jpg);
 }
 
+.navbar-brand {
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+}
+ .nav-link {
+	font-family: 'Fira Sans', sans-serif;
+ }
 .navbar a {
 	color: white;
 }
 
-.navbar-nav li a {
-	color: white;
-	background-color: black;
+.dropdown-menu {
+	background-color: #233663;
 }
-
-.navbar-nav li div {
-	background-color: black;
-}
-
-
 
 .search-panel {
-	/*margin-left: 5em;*/
+	margin-left: 5em;
 	height: 5em;
 	width: 100%;
 	display: flex;
-	background-color: black;
 	float: left;
 }
 
@@ -49,17 +47,23 @@ header {
 }
 
 .srch {
-	height: 2em;
+	height: 2.5em;
 	border: 1px solid black;
 	width: 20em;
 	padding: 5px;
 	margin-right: 1em;
 }
 
+#movie-serchable {
+	background-color: #E5E4E2;
+}
+
 
 main {
 	width: 100%;
 	height: auto;
+	background-color: #E5E4E2;
+	margin-top: -15px;
 }
 
 .top-bar {
@@ -74,17 +78,48 @@ main {
 }
 
 .bar-right {
-	background-color: blueviolet;
+
+	background-image: url(./img/1565109.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	text-align: center;
+	padding-top: 1.5%;
+	font-family: 'Fira Sans', sans-serif;
+	transition: 250ms all;
 }
 
-.bar-left {
-	background-color: gold;
+.bar-right:hover {
+	transform: scale(0.98);
+	cursor: pointer;
 }
+
+
+.bar-left {
+	height: 100%;
+	width: 50%;
+	background-image: url(./img/ef14216ccf38dfddb9d14ec31b93db45390bd45f.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 20px;
+	color: gold;
+	margin-right: 20px;
+	font-family: 'Fira Sans', sans-serif;
+	transition: 250ms all;
+	}
+
+	.bar-left:hover {
+		transform: scale(0.98);
+		cursor: pointer;
+	}
+
 
 .media {
 	width: 1000px;
 	margin-bottom: 30px;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .tv {
@@ -93,8 +128,12 @@ main {
 	height: auto;
 	overflow: hidden;
 	display: inline-block;
-	background-color: aqua;
 }
+
+.tv h2 {
+	font-family: 'Pacifico', cursive;;
+}
+
 
 .movieIn {
 	float: left;
@@ -102,43 +141,98 @@ main {
 	height: auto;
 	overflow: hidden;
 	display: inline-block;
-	background-color: chocolate;
+}
+
+.movieIn h2 {
+	font-family: 'Pacifico', cursive;
+}
+.wrap {
+	padding-top: 10px;
 }
 
 .first {
 	width: 500px;
 	height: 281px;
-	background-color: darkgrey;
 	float: left;
+	transition: 250ms all;
+	position: relative;
 }
 
+.first:hover {
+	transform: scale(0.98);
+	cursor: pointer;
+}
+.first h2 {
+	position: absolute;
+	bottom: 0%;
+	left: 10%;
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: large;
+}
 .second {
 	width: 250px;
 	height: 141px;
-	background-color: darkblue;
 	float: left;
+	transition: 250ms all;
+	position: relative;
+}
+
+.second:hover {
+	transform: scale(0.98);
+	cursor: pointer;
+}
+
+.second h2 {
+	position: absolute;
+	bottom: 0%;
+	left: 10%;
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: small;
 }
 
 .thrid {
 	width: 250px;
 	height: 141px;
-	background-color: crimson;
 	float: left;
-}
-.sub-media {
-	margin-top: 1em;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+	transition: 250ms all;
+	position: relative;
 }
 
+.thrid:hover {
+	transform: scale(0.98);
+	cursor: pointer;
+}
+.thrid h2 {
+	position: absolute;
+	bottom: 0%;
+	left: 10%;
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: small;
+}
+
+.popular-carousel {
+	margin: 0 auto;
+	width: 1031px;
+	height: auto;
+	text-align: center;
+}
+
+.popular-carousel h2 {
+font-family: 'Pacifico', cursive;
+}
+.carousel {
+	margin: 1em;
+}
 footer {
 	width: 100%;
 	height: 12em;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	background-color: darkolivegreen;
+	background-image: url(./img/74705061_155393805859612_3224043241129115648_o.jpg);
 	color: white;
 }
 
